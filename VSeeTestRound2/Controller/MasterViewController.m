@@ -15,6 +15,10 @@
 
 @property NSMutableArray *arrArticles;
 
+@property (strong, nonatomic) UIRefreshControl* refreshControl;
+
+@property (strong, nonatomic) JGProgressHUD* progressHud;
+
 @end
 
 @implementation MasterViewController
@@ -48,7 +52,7 @@
         
         Articles* article = [self.arrArticles objectAtIndex:((NSIndexPath*)sender).row];
         DetailViewController *controller = (DetailViewController *)[[segue destinationViewController] topViewController];
-        controller.article = article;
+        [controller setArticle:article];
     }
 }
 
@@ -76,15 +80,8 @@
         cell = [[CustomNewsCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellId];
     }
     
-    cell.imgNews.layer.borderWidth = 1;
-    cell.imgNews.layer.borderColor = [UIColor lightGrayColor].CGColor;
-    
-    Articles* article = [self.arrArticles objectAtIndex:indexPath.row];
-    cell.lblTitle.text = article.title;
-    cell.lblDescription.text = article.lblDescription;
-    cell.lblTimestamp.text = article.publishedAt;
-    
-    [cell.imgNews sd_setImageWithURL:[NSURL URLWithString:article.urlToImage]];
+    cell.article = [self.arrArticles objectAtIndex:indexPath.row];
+    [cell fetchLayout];
     
     return cell;
 }

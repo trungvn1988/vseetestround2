@@ -7,15 +7,25 @@
 //
 
 #import "CustomNewsCell.h"
+#import <SDWebImage/SDWebImage.h>
 
 @implementation CustomNewsCell
 
-@synthesize lblTitle, lblTimestamp, lblDescription, imgNews, article;
+@synthesize titleLabel, timestampLabel, descriptionLabel, newsImage, article;
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
+}
 
-    // Configure the view for the selected state
+-(void) fetchLayout{
+    self.newsImage.layer.borderWidth = 1;
+    self.newsImage.layer.borderColor = [UIColor lightGrayColor].CGColor;
+    
+    self.titleLabel.text = article.title;
+    self.descriptionLabel.text = article.lblDescription;
+    self.timestampLabel.text = article.publishedAt;
+    
+    [self.newsImage sd_setImageWithURL:[NSURL URLWithString:article.urlToImage]];
 }
 
 @end

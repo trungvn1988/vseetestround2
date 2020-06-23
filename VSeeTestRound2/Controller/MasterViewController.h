@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <SDWebImage/SDWebImage.h>
 #import <JGProgressHUD/JGProgressHUD.h>
 
 @class DetailViewController;
@@ -15,10 +14,6 @@
 @interface MasterViewController : UITableViewController <UITableViewDelegate, UITableViewDataSource>
 
 @property (strong, nonatomic) DetailViewController *detailViewController;
-
-@property (strong, nonatomic) UIRefreshControl* refreshControl;
-
-@property (strong, nonatomic) JGProgressHUD* progressHud;
 
 @end
 

@@ -19,6 +19,7 @@
 		9A14D6FC24A195700099602C /* VSeeTestRound2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A14D6FB24A195700099602C /* VSeeTestRound2Tests.m */; };
 		9A14D70724A195700099602C /* VSeeTestRound2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A14D70624A195700099602C /* VSeeTestRound2UITests.m */; };
 		9A89709A24A1FB2600862B2D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A89709924A1FB2600862B2D /* WebKit.framework */; };
+		9A89709E24A215B300862B2D /* FetchService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A89709D24A215B300862B2D /* FetchService.m */; };
 		9A9A89EE24A19B6C00410C6D /* CustomNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9A89ED24A19B6C00410C6D /* CustomNewsCell.m */; };
 		9A9A89F524A1B04000410C6D /* Articles.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9A89F424A1B04000410C6D /* Articles.m */; };
 		C114C09E4921E9670C0F1FCD /* Pods_VSeeTestRound2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D0C0BA472B5F053FEA054A /* Pods_VSeeTestRound2Tests.framework */; };
@@ -69,6 +70,8 @@
 		9A14D70624A195700099602C /* VSeeTestRound2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VSeeTestRound2UITests.m; sourceTree = "<group>"; };
 		9A14D70824A195700099602C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A89709924A1FB2600862B2D /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		9A89709C24A215B300862B2D /* FetchService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FetchService.h; sourceTree = "<group>"; };
+		9A89709D24A215B300862B2D /* FetchService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FetchService.m; sourceTree = "<group>"; };
 		9A9A89EC24A19B6C00410C6D /* CustomNewsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomNewsCell.h; sourceTree = "<group>"; };
 		9A9A89ED24A19B6C00410C6D /* CustomNewsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomNewsCell.m; sourceTree = "<group>"; };
 		9A9A89F324A1B04000410C6D /* Articles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Articles.h; sourceTree = "<group>"; };
@@ -133,6 +136,7 @@
 		9A14D6DB24A1956F0099602C /* VSeeTestRound2 */ = {
 			isa = PBXGroup;
 			children = (
+				9A89709B24A2154800862B2D /* Service */,
 				9A9A89F224A1B01200410C6D /* Model */,
 				9A9A89EF24A1A8C400410C6D /* CustomComponent */,
 				9A9A89F124A1A8F800410C6D /* Controller */,
@@ -162,6 +166,15 @@
 				9A14D70824A195700099602C /* Info.plist */,
 			);
 			path = VSeeTestRound2UITests;
+			sourceTree = "<group>";
+		};
+		9A89709B24A2154800862B2D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				9A89709C24A215B300862B2D /* FetchService.h */,
+				9A89709D24A215B300862B2D /* FetchService.m */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 		9A9A89EF24A1A8C400410C6D /* CustomComponent */ = {
@@ -470,6 +483,7 @@
 				9A14D6DE24A1956F0099602C /* AppDelegate.m in Sources */,
 				9A9A89F524A1B04000410C6D /* Articles.m in Sources */,
 				9A14D6E424A1956F0099602C /* MasterViewController.m in Sources */,
+				9A89709E24A215B300862B2D /* FetchService.m in Sources */,
 				9A9A89EE24A19B6C00410C6D /* CustomNewsCell.m in Sources */,
 				9A14D6E124A1956F0099602C /* SceneDelegate.m in Sources */,
 				9A14D6E724A1956F0099602C /* DetailViewController.m in Sources */,

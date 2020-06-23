@@ -12,14 +12,14 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Articles : NSObject <NSSecureCoding>
 
-@property (nonatomic, retain) NSString* author;
-@property (nonatomic, retain) NSString* title;
-@property (nonatomic, retain) NSString* lblDescription;
-@property (nonatomic, retain) NSString* url;
-@property (nonatomic, retain) NSString* urlToImage;
-@property (nonatomic, retain) NSString* publishedAt;
-@property (nonatomic, retain) NSString* content;
-@property (nonatomic, retain) NSDictionary* source;
+@property (nonatomic, strong) NSString* author;
+@property (nonatomic, strong) NSString* title;
+@property (nonatomic, strong) NSString* lblDescription;
+@property (nonatomic, strong) NSString* url;
+@property (nonatomic, strong) NSString* urlToImage;
+@property (nonatomic, strong) NSString* publishedAt;
+@property (nonatomic, strong) NSString* content;
+@property (nonatomic, strong) NSDictionary* source;
 
 @end
 

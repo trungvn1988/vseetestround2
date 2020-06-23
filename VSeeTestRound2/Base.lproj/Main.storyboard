@@ -112,10 +112,10 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <outlet property="imgNews" destination="UYH-2c-cUu" id="CL7-sT-NIo"/>
-                                    <outlet property="lblDescription" destination="Bkd-QK-yjP" id="PgS-Vo-7k4"/>
-                                    <outlet property="lblTimestamp" destination="1oV-2Z-zSy" id="YAc-wj-mNV"/>
-                                    <outlet property="lblTitle" destination="ovX-Yx-ucZ" id="i2W-cd-7VX"/>
+                                    <outlet property="descriptionLabel" destination="Bkd-QK-yjP" id="hCv-Gx-UZX"/>
+                                    <outlet property="newsImage" destination="UYH-2c-cUu" id="0gK-dh-7Bk"/>
+                                    <outlet property="timestampLabel" destination="1oV-2Z-zSy" id="UC9-AT-FmS"/>
+                                    <outlet property="titleLabel" destination="ovX-Yx-ucZ" id="sCV-LS-SuZ"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>

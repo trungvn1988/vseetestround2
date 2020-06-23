@@ -13,11 +13,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CustomNewsCell : UITableViewCell
 
-@property (strong, nonatomic) IBOutlet UILabel* lblTitle;
-@property (strong, nonatomic) IBOutlet UILabel* lblDescription;
-@property (strong, nonatomic) IBOutlet UIImageView* imgNews;
-@property (strong, nonatomic) IBOutlet UILabel* lblTimestamp;
+@property (strong, nonatomic) IBOutlet UILabel* titleLabel;
+@property (strong, nonatomic) IBOutlet UILabel* descriptionLabel;
+@property (strong, nonatomic) IBOutlet UIImageView* newsImage;
+@property (strong, nonatomic) IBOutlet UILabel* timestampLabel;
 @property (strong, nonatomic) Articles* article;
+
+-(void) fetchLayout;
 
 @end
 
