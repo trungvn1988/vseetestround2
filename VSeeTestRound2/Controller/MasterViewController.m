@@ -84,12 +84,7 @@
     cell.lblDescription.text = article.lblDescription;
     cell.lblTimestamp.text = article.publishedAt;
     
-    [[NSOperationQueue new] addOperationWithBlock:^{
-        UIImage* image = [UIImage sd_imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:article.urlToImage]]];
-        [[NSOperationQueue mainQueue] addOperationWithBlock:^{
-             [cell.imgNews setImage:image];
-        }];
-    }];
+    [cell.imgNews sd_setImageWithURL:[NSURL URLWithString:article.urlToImage]];
     
     return cell;
 }
@@ -117,7 +112,7 @@
     [self.progressHud showInView:self.view];
     
     // call fixed api.
-    NSString* fixedAPI = @"https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=383e8a167a4a46c1883e64516ddde9eb";
+    NSString* fixedAPI = @"https://newsapi.org/v2/top-headlines?country=us&apiKey=383e8a167a4a46c1883e64516ddde9eb";
     
     NSURLSessionConfiguration *defaultSessionConfiguration = [NSURLSessionConfiguration defaultSessionConfiguration];
     NSURLSession *defaultSession = [NSURLSession sessionWithConfiguration:defaultSessionConfiguration];

@@ -45,7 +45,7 @@
                         <viewLayoutGuide key="safeArea" id="VUw-jc-0yf"/>
                     </view>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" title="Detail" id="mOI-FS-AaM"/>
+                    <navigationItem key="navigationItem" id="mOI-FS-AaM"/>
                     <connections>
                         <outlet property="newsWebView" destination="KFD-bA-YX8" id="bnB-kt-dap"/>
                     </connections>
@@ -125,7 +125,7 @@
                             <outlet property="delegate" destination="7bK-jq-Zjz" id="RA6-mI-bju"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="BBC News" id="Zdf-7t-Un8"/>
+                    <navigationItem key="navigationItem" title="Headlines News" id="Zdf-7t-Un8"/>
                     <connections>
                         <segue destination="vC3-pB-5Vb" kind="push" identifier="showDetail" id="HhV-05-DTg"/>
                     </connections>
