@@ -10,6 +10,8 @@
 #import "Articles.h"
 #import "CachingService.h"
 
+#define fixedAPI @"https://newsapi.org/v2/top-headlines?country=us&apiKey=383e8a167a4a46c1883e64516ddde9eb"
+
 @implementation FetchService
 
 @synthesize fetchDelegate;
@@ -43,7 +45,6 @@
     }
     
     // call fixed api.
-    NSString* fixedAPI = @"https://newsapi.org/v2/top-headlines?country=us&apiKey=383e8a167a4a46c1883e64516ddde9eb";
     
     NSURLSessionConfiguration *defaultSessionConfiguration = [NSURLSessionConfiguration defaultSessionConfiguration];
     NSURLSession *defaultSession = [NSURLSession sessionWithConfiguration:defaultSessionConfiguration];

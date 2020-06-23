@@ -16,7 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 -(void) fetchDataSuccess:(NSArray*) arrContent;
 -(void) fetchDataFailed;
-//    - (void) myClassDelegateMethod: (MyClass *) sender;
+
 @end
 
 @interface FetchService : NSObject {
