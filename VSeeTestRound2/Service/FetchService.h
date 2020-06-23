@@ -10,7 +10,23 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface FetchService : NSObject
+@class FetchService;
+
+@protocol FetchServiceDelegate <NSObject>
+
+-(void) fetchDataSuccess:(NSArray*) arrContent;
+-(void) fetchDataFailed;
+//    - (void) myClassDelegateMethod: (MyClass *) sender;
+@end
+
+@interface FetchService : NSObject {
+}
+
+@property (nonatomic, weak) id <FetchServiceDelegate> fetchDelegate; //define MyClassDelegate as delegate
+
+-(void) fetchData;
+
+-(void) refreshData;
 
 @end
 

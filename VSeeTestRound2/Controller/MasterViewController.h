@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <JGProgressHUD/JGProgressHUD.h>
+#import "FetchService.h"
 
 @class DetailViewController;
 
-@interface MasterViewController : UITableViewController <UITableViewDelegate, UITableViewDataSource>
+@interface MasterViewController : UITableViewController <UITableViewDelegate, UITableViewDataSource, FetchServiceDelegate>
 
 @property (strong, nonatomic) DetailViewController *detailViewController;
 
