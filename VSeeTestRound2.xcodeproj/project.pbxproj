@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74A2EDE1DCC218B1862D1DA7 /* Pods_VSeeTestRound2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF7A34E85555727F5AEAD7C /* Pods_VSeeTestRound2.framework */; };
 		9A14D6DE24A1956F0099602C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A14D6DD24A1956F0099602C /* AppDelegate.m */; };
 		9A14D6E124A1956F0099602C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A14D6E024A1956F0099602C /* SceneDelegate.m */; };
 		9A14D6E424A1956F0099602C /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A14D6E324A1956F0099602C /* MasterViewController.m */; };
@@ -17,6 +18,11 @@
 		9A14D6F224A195700099602C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A14D6F124A195700099602C /* main.m */; };
 		9A14D6FC24A195700099602C /* VSeeTestRound2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A14D6FB24A195700099602C /* VSeeTestRound2Tests.m */; };
 		9A14D70724A195700099602C /* VSeeTestRound2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A14D70624A195700099602C /* VSeeTestRound2UITests.m */; };
+		9A89709A24A1FB2600862B2D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A89709924A1FB2600862B2D /* WebKit.framework */; };
+		9A9A89EE24A19B6C00410C6D /* CustomNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9A89ED24A19B6C00410C6D /* CustomNewsCell.m */; };
+		9A9A89F524A1B04000410C6D /* Articles.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9A89F424A1B04000410C6D /* Articles.m */; };
+		C114C09E4921E9670C0F1FCD /* Pods_VSeeTestRound2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D0C0BA472B5F053FEA054A /* Pods_VSeeTestRound2Tests.framework */; };
+		CE84E47103581FDE778A691F /* Pods_VSeeTestRound2_VSeeTestRound2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845398C4A445DAD4B67BDFDD /* Pods_VSeeTestRound2_VSeeTestRound2UITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B9E37B1B9F8B7871098C670 /* Pods-VSeeTestRound2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSeeTestRound2Tests.debug.xcconfig"; path = "Target Support Files/Pods-VSeeTestRound2Tests/Pods-VSeeTestRound2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4A7E396F2FEE214576CA5F41 /* Pods-VSeeTestRound2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSeeTestRound2.release.xcconfig"; path = "Target Support Files/Pods-VSeeTestRound2/Pods-VSeeTestRound2.release.xcconfig"; sourceTree = "<group>"; };
+		52C46C6CA6C06713BE3A901F /* Pods-VSeeTestRound2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSeeTestRound2.debug.xcconfig"; path = "Target Support Files/Pods-VSeeTestRound2/Pods-VSeeTestRound2.debug.xcconfig"; sourceTree = "<group>"; };
+		81D0C0BA472B5F053FEA054A /* Pods_VSeeTestRound2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VSeeTestRound2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		845398C4A445DAD4B67BDFDD /* Pods_VSeeTestRound2_VSeeTestRound2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VSeeTestRound2_VSeeTestRound2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A14D6D924A1956F0099602C /* VSeeTestRound2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VSeeTestRound2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A14D6DC24A1956F0099602C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9A14D6DD24A1956F0099602C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -57,6 +68,15 @@
 		9A14D70224A195700099602C /* VSeeTestRound2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VSeeTestRound2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A14D70624A195700099602C /* VSeeTestRound2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VSeeTestRound2UITests.m; sourceTree = "<group>"; };
 		9A14D70824A195700099602C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A89709924A1FB2600862B2D /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		9A9A89EC24A19B6C00410C6D /* CustomNewsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomNewsCell.h; sourceTree = "<group>"; };
+		9A9A89ED24A19B6C00410C6D /* CustomNewsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomNewsCell.m; sourceTree = "<group>"; };
+		9A9A89F324A1B04000410C6D /* Articles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Articles.h; sourceTree = "<group>"; };
+		9A9A89F424A1B04000410C6D /* Articles.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Articles.m; sourceTree = "<group>"; };
+		9DFA78901F100E9E4233A89F /* Pods-VSeeTestRound2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSeeTestRound2Tests.release.xcconfig"; path = "Target Support Files/Pods-VSeeTestRound2Tests/Pods-VSeeTestRound2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BCF7A34E85555727F5AEAD7C /* Pods_VSeeTestRound2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VSeeTestRound2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB1EA72A9AD36C924BC9F37D /* Pods-VSeeTestRound2-VSeeTestRound2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSeeTestRound2-VSeeTestRound2UITests.debug.xcconfig"; path = "Target Support Files/Pods-VSeeTestRound2-VSeeTestRound2UITests/Pods-VSeeTestRound2-VSeeTestRound2UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EAD4D272BDFCAC840B0F4426 /* Pods-VSeeTestRound2-VSeeTestRound2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSeeTestRound2-VSeeTestRound2UITests.release.xcconfig"; path = "Target Support Files/Pods-VSeeTestRound2-VSeeTestRound2UITests/Pods-VSeeTestRound2-VSeeTestRound2UITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +84,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A89709A24A1FB2600862B2D /* WebKit.framework in Frameworks */,
+				74A2EDE1DCC218B1862D1DA7 /* Pods_VSeeTestRound2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C114C09E4921E9670C0F1FCD /* Pods_VSeeTestRound2Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE84E47103581FDE778A691F /* Pods_VSeeTestRound2_VSeeTestRound2UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +115,8 @@
 				9A14D6FA24A195700099602C /* VSeeTestRound2Tests */,
 				9A14D70524A195700099602C /* VSeeTestRound2UITests */,
 				9A14D6DA24A1956F0099602C /* Products */,
+				F175279BF11AC40AC811B1B2 /* Pods */,
+				FFEDB4F3398464BDB6321351 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,14 +133,10 @@
 		9A14D6DB24A1956F0099602C /* VSeeTestRound2 */ = {
 			isa = PBXGroup;
 			children = (
-				9A14D6DC24A1956F0099602C /* AppDelegate.h */,
-				9A14D6DD24A1956F0099602C /* AppDelegate.m */,
-				9A14D6DF24A1956F0099602C /* SceneDelegate.h */,
-				9A14D6E024A1956F0099602C /* SceneDelegate.m */,
-				9A14D6E224A1956F0099602C /* MasterViewController.h */,
-				9A14D6E324A1956F0099602C /* MasterViewController.m */,
-				9A14D6E524A1956F0099602C /* DetailViewController.h */,
-				9A14D6E624A1956F0099602C /* DetailViewController.m */,
+				9A9A89F224A1B01200410C6D /* Model */,
+				9A9A89EF24A1A8C400410C6D /* CustomComponent */,
+				9A9A89F124A1A8F800410C6D /* Controller */,
+				9A9A89F024A1A8E600410C6D /* Delegate */,
 				9A14D6E824A1956F0099602C /* Main.storyboard */,
 				9A14D6EB24A195700099602C /* Assets.xcassets */,
 				9A14D6ED24A195700099602C /* LaunchScreen.storyboard */,
@@ -142,6 +164,70 @@
 			path = VSeeTestRound2UITests;
 			sourceTree = "<group>";
 		};
+		9A9A89EF24A1A8C400410C6D /* CustomComponent */ = {
+			isa = PBXGroup;
+			children = (
+				9A9A89EC24A19B6C00410C6D /* CustomNewsCell.h */,
+				9A9A89ED24A19B6C00410C6D /* CustomNewsCell.m */,
+			);
+			path = CustomComponent;
+			sourceTree = "<group>";
+		};
+		9A9A89F024A1A8E600410C6D /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				9A14D6DC24A1956F0099602C /* AppDelegate.h */,
+				9A14D6DD24A1956F0099602C /* AppDelegate.m */,
+				9A14D6DF24A1956F0099602C /* SceneDelegate.h */,
+				9A14D6E024A1956F0099602C /* SceneDelegate.m */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		9A9A89F124A1A8F800410C6D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9A14D6E224A1956F0099602C /* MasterViewController.h */,
+				9A14D6E324A1956F0099602C /* MasterViewController.m */,
+				9A14D6E524A1956F0099602C /* DetailViewController.h */,
+				9A14D6E624A1956F0099602C /* DetailViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9A9A89F224A1B01200410C6D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9A9A89F324A1B04000410C6D /* Articles.h */,
+				9A9A89F424A1B04000410C6D /* Articles.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F175279BF11AC40AC811B1B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52C46C6CA6C06713BE3A901F /* Pods-VSeeTestRound2.debug.xcconfig */,
+				4A7E396F2FEE214576CA5F41 /* Pods-VSeeTestRound2.release.xcconfig */,
+				CB1EA72A9AD36C924BC9F37D /* Pods-VSeeTestRound2-VSeeTestRound2UITests.debug.xcconfig */,
+				EAD4D272BDFCAC840B0F4426 /* Pods-VSeeTestRound2-VSeeTestRound2UITests.release.xcconfig */,
+				3B9E37B1B9F8B7871098C670 /* Pods-VSeeTestRound2Tests.debug.xcconfig */,
+				9DFA78901F100E9E4233A89F /* Pods-VSeeTestRound2Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FFEDB4F3398464BDB6321351 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A89709924A1FB2600862B2D /* WebKit.framework */,
+				BCF7A34E85555727F5AEAD7C /* Pods_VSeeTestRound2.framework */,
+				845398C4A445DAD4B67BDFDD /* Pods_VSeeTestRound2_VSeeTestRound2UITests.framework */,
+				81D0C0BA472B5F053FEA054A /* Pods_VSeeTestRound2Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -149,9 +235,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A14D70B24A195700099602C /* Build configuration list for PBXNativeTarget "VSeeTestRound2" */;
 			buildPhases = (
+				7B4664C6368F69F9E3D16E38 /* [CP] Check Pods Manifest.lock */,
 				9A14D6D524A1956F0099602C /* Sources */,
 				9A14D6D624A1956F0099602C /* Frameworks */,
 				9A14D6D724A1956F0099602C /* Resources */,
+				94EF01534A100BB297BAE541 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -166,6 +254,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A14D70E24A195700099602C /* Build configuration list for PBXNativeTarget "VSeeTestRound2Tests" */;
 			buildPhases = (
+				649E76EA570156476CAD3ECC /* [CP] Check Pods Manifest.lock */,
 				9A14D6F324A195700099602C /* Sources */,
 				9A14D6F424A195700099602C /* Frameworks */,
 				9A14D6F524A195700099602C /* Resources */,
@@ -184,9 +273,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A14D71124A195700099602C /* Build configuration list for PBXNativeTarget "VSeeTestRound2UITests" */;
 			buildPhases = (
+				F028EEBE01AA06C4CCC70B7E /* [CP] Check Pods Manifest.lock */,
 				9A14D6FE24A195700099602C /* Sources */,
 				9A14D6FF24A195700099602C /* Frameworks */,
 				9A14D70024A195700099602C /* Resources */,
+				DA566E047705BFBFAF5AB3DF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -267,6 +358,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		649E76EA570156476CAD3ECC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VSeeTestRound2Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B4664C6368F69F9E3D16E38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VSeeTestRound2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94EF01534A100BB297BAE541 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VSeeTestRound2/Pods-VSeeTestRound2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VSeeTestRound2/Pods-VSeeTestRound2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VSeeTestRound2/Pods-VSeeTestRound2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA566E047705BFBFAF5AB3DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VSeeTestRound2-VSeeTestRound2UITests/Pods-VSeeTestRound2-VSeeTestRound2UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VSeeTestRound2-VSeeTestRound2UITests/Pods-VSeeTestRound2-VSeeTestRound2UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VSeeTestRound2-VSeeTestRound2UITests/Pods-VSeeTestRound2-VSeeTestRound2UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F028EEBE01AA06C4CCC70B7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VSeeTestRound2-VSeeTestRound2UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9A14D6D524A1956F0099602C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -274,7 +468,9 @@
 			files = (
 				9A14D6F224A195700099602C /* main.m in Sources */,
 				9A14D6DE24A1956F0099602C /* AppDelegate.m in Sources */,
+				9A9A89F524A1B04000410C6D /* Articles.m in Sources */,
 				9A14D6E424A1956F0099602C /* MasterViewController.m in Sources */,
+				9A9A89EE24A19B6C00410C6D /* CustomNewsCell.m in Sources */,
 				9A14D6E124A1956F0099602C /* SceneDelegate.m in Sources */,
 				9A14D6E724A1956F0099602C /* DetailViewController.m in Sources */,
 			);
@@ -443,6 +639,7 @@
 		};
 		9A14D70C24A195700099602C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52C46C6CA6C06713BE3A901F /* Pods-VSeeTestRound2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -459,6 +656,7 @@
 		};
 		9A14D70D24A195700099602C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A7E396F2FEE214576CA5F41 /* Pods-VSeeTestRound2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -475,6 +673,7 @@
 		};
 		9A14D70F24A195700099602C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B9E37B1B9F8B7871098C670 /* Pods-VSeeTestRound2Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -494,6 +693,7 @@
 		};
 		9A14D71024A195700099602C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DFA78901F100E9E4233A89F /* Pods-VSeeTestRound2Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -513,6 +713,7 @@
 		};
 		9A14D71224A195700099602C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB1EA72A9AD36C924BC9F37D /* Pods-VSeeTestRound2-VSeeTestRound2UITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = VSeeTestRound2UITests/Info.plist;
@@ -530,6 +731,7 @@
 		};
 		9A14D71324A195700099602C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAD4D272BDFCAC840B0F4426 /* Pods-VSeeTestRound2-VSeeTestRound2UITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = VSeeTestRound2UITests/Info.plist;
