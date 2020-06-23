@@ -17,7 +17,6 @@
 @synthesize article, newsWebView;
 
 - (void) loadURL {
-    NSLog(@"%@", article.url);
     [self.newsWebView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:article.url]]];
 }
 

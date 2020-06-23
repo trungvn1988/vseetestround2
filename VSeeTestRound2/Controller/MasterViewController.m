@@ -97,7 +97,7 @@
         // load cache first.
         NSError* unarchiveError;
         NSData* cachedData = [self loadCache];
-        NSArray* cachedArray = [NSKeyedUnarchiver unarchivedObjectOfClass:[NSObject class] fromData:cachedData error:&unarchiveError];
+        NSArray* cachedArray = [NSKeyedUnarchiver unarchivedObjectOfClass:[Articles class] fromData:cachedData error:&unarchiveError];
         
         if(!unarchiveError){
             self.arrArticles = [cachedArray mutableCopy];
